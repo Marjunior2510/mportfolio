@@ -1,0 +1,303 @@
+@import url("https://fonts.googleapis.com/css2?family=Poppins:wght@400;600;700&display=swap");
+@import url('https://fonts.googleapis.com/css2?family=Playfair+Display:ital@1&display=swap');
+
+*{
+  /* border: 0.3px solid #3EE189; */
+  font-family: poppins;
+  text-decoration: none;
+  margin: 0;
+  padding: 0;
+  list-style-type: none;
+}
+
+header{
+  height:75px;
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  align-items: center;
+
+}
+
+#pfp {
+  /* margin-left: 20px; */
+ width:50px;
+ height: auto;
+ border-radius: 50%;
+filter: drop-shadow(0px 4px 15px #F2F5F1);
+}
+
+ul{
+   margin-top: 10px;
+}
+
+li {
+  padding: 14px 16px;
+  text-decoration: none;
+  
+}
+
+li a{
+  color: #000000;
+}
+
+#textandhero{
+ text-align: center;
+}
+
+
+h1{
+  font-weight: 600;
+font-size: 37px;
+line-height: 60px;
+}
+
+
+.color {
+ color:#027bff;  
+}
+
+
+
+#icando{
+font-size: 22px;
+}
+#dev, #ux{
+font-family: 'Playfair Display', serif;
+}
+
+
+
+.send{
+  display: none;
+  margin-right: 10px;
+  transition: 0.3s;
+}
+
+.button {
+  background-color: #0e153a; 
+  border-radius: 32px;
+  color: white;
+  padding: 15px 32px;
+  text-align: center;
+  text-decoration: none;
+  display: inline-block;
+  font-size: 16px;
+  transition: 0.3s;
+   cursor: pointer;
+  margin-top: 20px;
+   margin-bottom: 30px;
+  box-shadow: 0px 8px 15px rgba(0, 0, 0, 0.1);
+
+  
+}
+
+ h2{
+   margin-top: 30px;
+   color: #0e153a;
+   text-align: center;
+   margin-bottom: 20px;
+ }
+
+ #chevron{
+   margin-top: 50px;
+   text-align: center;
+   margin-bottom: 50px;
+ }
+
+.title{
+    font-weight: 600;
+  }
+
+  .description{
+    margin-bottom: 20px;
+  }
+
+  #lowerhalf{
+    margin-top: 50px;
+  }
+ .ss{
+   width: 400px;
+   height: 250px;
+   box-shadow: 3px 10px 20px #f6f5ef;
+ }
+
+ .projectbox{
+    display: inline-block;
+    margin-top: 30px;
+    margin-left: 50px;
+ }
+
+ footer {
+   left: 0;
+   bottom: 0;
+   height: 50px;
+   width: 100%;
+   background-color:#0e153a;
+   color: white;
+   text-align: center;
+   margin-top: 15px;
+   display: flex;
+   align-items: center;
+   justify-content: center;
+}
+
+@media only screen and (min-width: 678px) {
+
+ul{
+
+   display: flex;
+   align-items: center;
+}
+
+li{
+  margin-right: 50px;
+  list-style: none;
+  float: right;
+  text-align: center;
+  padding: 14px 16px;
+  text-decoration: none;
+  
+}
+
+li a{
+  transition: 0.3s;
+  color: #000000;
+}
+
+
+li a:hover {
+  color:#027bff;
+}
+
+#toggle{
+  display: none;
+
+}
+
+#textandhero{
+  height: 50vh;
+  display: flex;
+  flex-direction: row;
+  margin-top: 150px;
+  justify-content: space-around;
+
+}
+
+#intro{
+  text-align:center;
+} 
+
+
+
+
+h1{
+  font-weight: 600;
+font-size: 50px;
+line-height: 60px;
+}
+
+
+.color {
+ color:#027bff;  
+}
+
+
+
+#icando{
+font-size: 22px;
+margin-top: 30px;
+}
+#dev, #ux{
+font-family: 'Playfair Display', serif;
+}
+
+
+
+.send{
+  display: none;
+  margin-right: 10px;
+  transition: 0.3s;
+}
+
+
+.button {
+  background-color: #0e153a; 
+  border-radius: 32px;
+  color: white;
+  padding: 15px 32px;
+  text-align: center;
+  text-decoration: none;
+  display: inline-block;
+  font-size: 16px;
+  transition: 0.3s;
+   cursor: pointer;
+  margin-top: 20px;
+  box-shadow: 0px 8px 15px rgba(0, 0, 0, 0.1);
+}
+
+.button:hover{
+   transform: translateY(-7px);
+  background-color: #027bff;
+ 
+  
+}
+ 
+.icons {
+  margin-top: 80px;
+  color: #404040;
+  font-size: 30px;
+}
+
+
+ h2{
+   color: #0e153a;
+   text-align: center;
+   margin-bottom: 40px;
+ }
+
+ #chevron{
+   text-align: center;
+   margin-bottom: 50px;
+ }
+
+  .title{
+    font-weight: 600;
+  }
+
+  .description{
+    margin-bottom: 20px;
+  }
+
+  #lowerhalf{
+    margin-top: 50px;
+  }
+ .ss{
+   width: 580px;
+   height: 350px;
+   box-shadow: 3px 10px 20px #f6f5ef;
+ }
+
+ .projectbox{
+    display: inline-block;
+    margin-top: 30px;
+    margin-left: 70px;
+ }
+
+
+
+ footer {
+   left: 0;
+   bottom: 0;
+   height: 50px;
+   width: 100%;
+   background-color:#0e153a;
+   color: white;
+   text-align: center;
+   margin-top: 15px;
+   display: flex;
+   align-items: center;
+   justify-content: center;
+}
+
+}
